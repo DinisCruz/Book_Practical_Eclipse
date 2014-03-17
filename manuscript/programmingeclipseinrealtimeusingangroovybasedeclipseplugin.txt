@@ -2,7 +2,6 @@
 
 While working on an Eclipse plugin to integrate [TeamMentor with Fortify](http://blog.diniscruz.com/2013/08/adding-custom-descriptions-and-content.html), it was driving me crazy to have to deal with the loop of:  
 
-
   * Write the code in the main Eclipse instance (hosting the Eclipse plug-in project)
   * Start the Eclipse plug-in project (in debug mode)
   * Wait about 1 minute for the 2nd instance of Eclipse to start
@@ -11,10 +10,8 @@ While working on an Eclipse plugin to integrate [TeamMentor with Fortify](http:/
 
     * If I'm luck they will be in a place that can be done (in the hosting Eclipse instance) without a restart of the 2nd eclipse
     * If I'm not lucky, go back to step one
-
   
 This approach has a number of problems  
-
 
   * Eclipse is quite an heavy and memory hungry application
   * The changes are not done in a REPL mode (i.e. interactive with immediate feedback to the execution result)
@@ -22,8 +19,8 @@ This approach has a number of problems
   * The Java APIs (just like the C# ones) are very verbose, ugly and hard to use (specially when compared with the type of coding I am now used to with [FluentSharp](http://www.nuget.org/packages?q=fluentsharp) APIs)
 
 What I really wanted was the same environment that I created for .NET, where I was able to [Program VisualStudio in real-time using C# REPL](http://blog.diniscruz.com/2012/10/programming-visualstudio-in-real-time.html)   
-[  
-](https://www.blogger.com/blog.diniscruz.com/2012/10/programming-visualstudio-in-real-time.html)I.e. **I want to program Eclipse in real-time **(i.e. the executed plug-in code must have access to the 'current' Eclipse application (i.e. its host)). This capability will be critical for one of my next stages of development, which will be based on having access to the artefacts currently available/exposed on other plug-ins (from java AST to other tool's results)
+
+I.e. **I want to program Eclipse in real-time **(i.e. the executed plug-in code must have access to the 'current' Eclipse application (i.e. its host)). This capability will be critical for one of my next stages of development, which will be based on having access to the artefacts currently available/exposed on other plug-ins (from java AST to other tool's results)
 
 I also wanted to move away from pure Java code and use something like the [O2 Platform REPL Enviroment](http://blog.diniscruz.com/p/c-repl-script-environment.html).
 
@@ -48,8 +45,8 @@ Here is a (very rough/poc) script that dynamically adds a number of buttons to a
 [![image](images/image_thumb_25255B5_25255D.png)](http://lh6.ggpht.com/-HY8_uDClUfA/Uhipatc_23I/AAAAAAAAPiQ/KYJwTuscoZQ/s1600-h/image%25255B17%25255D.png)
 
 **How it works**  
-**  
-**As with the O2 .NET VisualStudio extension, my objective was to create the smallest possible Eclipse Plug-in that only did one thing: expose an REPL Script environment.
+
+As with the O2 .NET VisualStudio extension, my objective was to create the smallest possible Eclipse Plug-in that only did one thing: expose an REPL Script environment.
 
 The idea is that once there is a REPL environment, the rest can be programmed+compiled+executed dynamically (i.e. only the original plug-in code would be written in Java, and have a hard dependency on eclipse (i.e. a place where changes require a restart (and making a cup of tea)).
 
@@ -86,8 +83,8 @@ In this first version of the plugin, I reused the auto created (from the sample 
 [![image](images/image_thumb_25255B13_25255D.png)](http://lh6.ggpht.com/-6HL-Sn8aBUY/UhiphTycI_I/AAAAAAAAPjw/o8DVDK80Ejg/s1600-h/image%25255B39%25255D.png)
 
 ... with only a small change made on the default editor _**contents:**_  
-_**  
-**_[![image](images/image_thumb_25255B15_25255D.png)](http://lh3.ggpht.com/-0oFmi4CPd68/UhipimAgIhI/AAAAAAAAPj8/SE6RyPOfZm4/s1600-h/image%25255B45%25255D.png)
+
+[![image](images/image_thumb_25255B15_25255D.png)](http://lh3.ggpht.com/-0oFmi4CPd68/UhipimAgIhI/AAAAAAAAPj8/SE6RyPOfZm4/s1600-h/image%25255B45%25255D.png)
 
 The **_SampleNewWizardPage.java,_** is also just about the same as the original version, with only a small change on the file extension.
 
@@ -122,10 +119,10 @@ In the next chose a container (i.e. where the new file will be created)
 ... and we will have an REPL environment that looks like this:
 
 [![image](images/image_thumb_25255B35_25255D.png)](http://lh6.ggpht.com/-6bHVYCB79rQ/Uhipr8wO-FI/AAAAAAAAPmA/eW4vPdk27Hs/s1600-h/image%25255B79%25255D.png)   
-**  
-****Running Groovy scripts (REPL Style)**  
-**  
-**In the environment shown above, if we click on the **_Compile and execute_** code button, we will see the execution result in the purple panel (which in this case is the global answer to everything: 42)
+
+*Running Groovy scripts (REPL Style)**  
+
+In the environment shown above, if we click on the **_Compile and execute_** code button, we will see the execution result in the purple panel (which in this case is the global answer to everything: 42)
 
 [![image](images/image_thumb_25255B39_25255D.png)](http://lh6.ggpht.com/-ADRSX-DQjbs/UhiptJPJUbI/AAAAAAAAPmQ/5IXHgFOUKkY/s1600-h/image%25255B91%25255D.png)
 
@@ -144,10 +141,10 @@ Here is a simple script to get all methods available in the String class:
 .. similar output in one line of code (isn't Groovy great?):
 
 [![image](images/image_thumb_25255B43_25255D.png)](http://lh3.ggpht.com/-xLXPgWUgT3M/UhipxnaMV8I/AAAAAAAAPnM/TntGb-FDKAk/s1600-h/image%25255B103%25255D.png)   
-**  
-****OK, so what is happening under the scenes?**  
-**  
-**In the 2nd Eclipse, when a *.g2 file is opened, an instance of the **_MultiPageEditor _**will be created.
+
+**OK, so what is happening under the scenes?**  
+
+In the 2nd Eclipse, when a *.g2 file is opened, an instance of the **_MultiPageEditor _**will be created.
 
 Back into the original/host Eclipse, the main changes on the **_MultiPageEditor.class _**file are the use of the MyEditor class:
 
@@ -167,7 +164,6 @@ The MyEditor class extends the GroovyEditor with a number of extra variables tha
 
 The G2 editor GUI is created on **_createPartControl_** method which will:  
 
-
   * Create a **_SashForm_** and assign it to the provided **_parent_**
   * Add a Button with a callback to **_compileAndExecuteCode_** method
   * Add a StyledText and make it purple (this will be used to show the execution result)
@@ -180,7 +176,6 @@ The **_compileAndExecuteCode_** method is used to execute the **_compileAndExecu
 [![image](images/image_thumb_25255B54_25255D.png)](http://lh6.ggpht.com/-Dox9Gwya3jU/Uhip445eNNI/AAAAAAAAPos/EjYASUIeNhw/s1600-h/image%25255B125%25255D.png)
 
 The **_compileAndExecuteCode_InGuiThread_**  will:  
-
 
   * Get the current text from the TextEditor
   * Create a Binding object and assign a number of very interesting/powerful objects to it:
@@ -231,8 +226,8 @@ This last part is REALLY interesting/powerful, since it means that we can develo
 Btw: I'm pretty sure there are easier ways to do this, and it would be great if I could get some help with the next versions (for example I had probs using the GroovyEditor outside an Eclipse Editor/Page environment and I was not sure how to enable CodeComplete/Intelisense to the GooryEditor)
 
 **Deployment**  
-**  
-**To deploy this I created an Feature and UpdateSite project (which once the plug-in is a bit more mature, I will find a location to host it in a public environment)
+
+To deploy this I created an Feature and UpdateSite project (which once the plug-in is a bit more mature, I will find a location to host it in a public environment)
 
 [![image](images/image_thumb_25255B66_25255D.png)](http://lh5.ggpht.com/-ifmlVtNgo7s/UhiqEPhwxHI/AAAAAAAAPrA/odeexVy9Zbk/s1600-h/image%25255B161%25255D.png)
 
