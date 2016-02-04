@@ -1,4 +1,4 @@
-##  TeamMentor Plugin and Builder v1.5.6 (Source Code and Eclipse Update site) 
+## TeamMentor Plugin and Builder v1.5.6 (Source Code and Eclipse Update site)
 
 **TLDR:** open eclipse and install the plugin from: [http://eclipse-plugin-builder.azurewebsites.net](http://eclipse-plugin-builder.azurewebsites.net/)
 
