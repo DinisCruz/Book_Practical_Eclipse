@@ -1,7 +1,11 @@
-1.Introduction.md
-1.ChangeLog.md
+{frontmatter}
+1.Leanpub-book-originally-based-on-Blog-posts
+2.ChangeLog.md
+
+{mainmatter}
 
 #august2013.txt
+
 #programmingeclipseinrealtimeusingangroovybasedeclipseplugin.txt
 
 #september2013.txt
