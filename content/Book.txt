@@ -4,9 +4,9 @@
 
 {mainmatter}
 
-#august2013.txt
+august2013.md
 
-#programmingeclipseinrealtimeusingangroovybasedeclipseplugin.txt
+1.Programming-Eclipse-in-Real-Time-(using-an-'Groovy-based'-Eclipse-Plug-in).md
 
 #september2013.txt
 #openingupanativechromebrowserwindowinsideeclipserawversion.txt
