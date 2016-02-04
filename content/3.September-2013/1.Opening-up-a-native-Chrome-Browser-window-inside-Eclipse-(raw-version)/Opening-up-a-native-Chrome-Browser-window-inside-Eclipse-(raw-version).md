@@ -30,7 +30,6 @@ In an [C# REPL UI](http://blog.diniscruz.com/p/c-repl-script-environment.html), 
 
 Since what we want is chrome, we can use the **_API_Chrome_Hijack_** API to:  
 
-
   1. open up a new instance of chrome,
   2. find its dedicated process and
   3. get that process MainWindowHandle
