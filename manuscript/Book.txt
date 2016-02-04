@@ -1,12 +1,17 @@
-1.Introduction.md
-1.ChangeLog.md
+{frontmatter}
+1.Leanpub-book-originally-based-on-Blog-posts
+2.ChangeLog.md
 
-#august2013.txt
-#programmingeclipseinrealtimeusingangroovybasedeclipseplugin.txt
+{mainmatter}
 
-#september2013.txt
-#openingupanativechromebrowserwindowinsideeclipserawversion.txt
-#injectinghpfortifyeclipsepluginviewsintohpswebinspectui.txt
+august2013.md
+
+Programming-Eclipse-in-Real-Time-(using-an-'Groovy-based'-Eclipse-Plug-in).md
+
+september2013.md
+
+Opening-up-a-native-Chrome-Browser-window-inside-Eclipse-(raw-version).md
+Injecting-HP-Fortify-Eclipse-Plug-in-Views-into-HP's-WebInspect-UI.md
 
 #november2013.txt
 #siopensourcestheeclipseplugindevelopmenttoolkitthatidevelopedforteammentor.txt
