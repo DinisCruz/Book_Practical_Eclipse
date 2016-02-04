@@ -19,16 +19,16 @@ SI-Open-Sources-the-Eclipse-Plugin-development-toolkit-that-I-developed-for-Team
 TeamMentor-Plugin-and-Builder-v1.5.6-(Source-Code-and-Eclipse-Update-site).md
 
 #december2013.txt
-#installingeclipsepluginbuilderaccessingeclipseobjectsandaddinganewmenuitemthatopensowasporgwebsite.txt
-#highresimagesofteammentorsfortifyintegrationineclipe.txt
-#howtowordwrapawordwithoutbreakingitwhenusingbootstrap.txt
-#installingcompilingandfailingtousedcevmforeclipseplugindevelopment.txt
-#usingjrebeltohotswapnewstaticstringfieldsinaneclipsepluginwithouteclipserestart.txt
-#addingandusingnewapimethodsthatareconsumedbyaneclipsepluginunderdevelopmentwithouteclipserestart.txt
-#groovyscripttocreateaviewthatshowstheimagesavailableintheisharedimagesclass.txt
-#executingeclipsepluginjunittestsinrealtimewithoutneedingtorestarteclipsewithnomocking.txt
-#xstreamremotecodeexecutionexploitoncodefromstandardwaytoserializeanddeserializeobjectswithxstreamarticle.txt
-#howtocreateusingeclipsejavadocsthatlooksgoodmycurrentapproachisnotworking.txt
+1.Installing-Eclipse-Plugin-Builder,-accessing-Eclipse-objects-and-adding-a-new-Menu-Item-that-opens-Owasp.org-website.md
+2.High-Res-images-of-TeamMentor's-Fortify-integration-in-Eclipe.md
+3.How-to-word-wrap-a-word-without-breaking-it-(when-using-bootstrap).md
+4.Installing,-compiling-and-failing-to-use-DCE-VM-for-Eclipse-Plugin-development.md
+5.Using-JRebel-to-HotSwap-new-Static-String-fields-in-an-Eclipse-Plugin-(without-Eclipse-restart).md
+6.Adding-and-using-new-API-methods,-that-are-consumed-by-an-Eclipse-Plugin-under-development-(without-Eclipse-restart).md
+7.Groovy-Script-to-create-a-view-that-shows-the-images-available-in-the-ISharedImages-class.md
+8.Executing-Eclipse-Plugin-JUnit-tests-in-real-time-without-needing-to-restart-Eclipse-(with-no-mocking).md
+9.XStream-Remote-Code-Execution-exploit-on-code-from-Standard-way-to-serialize-and-deserialize-Objects-with-XStream-article.md
+10.How-to-create-(using-Eclipse)-JavaDocs-that-looks-good-(My-current-approach-is-not-working).md
 
 #january2014.txt
 #updatingthegithubreposforthe160releaseoftheeclipsefortifyplugin.txt
