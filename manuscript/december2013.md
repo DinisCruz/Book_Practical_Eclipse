@@ -1,7 +1,6 @@
 # December 2013
 
 * Installing Eclipse Plugin Builder, accessing Eclipse objects and adding a new Menu Item that opens Owasp.org website
-* High-Res images of TeamMentor's Fortify integration in Eclipe
 * How to word-wrap a word without breaking it (when using bootstrap)
 * Installing, compiling and failing to use DCE VM for Eclipse Plugin development
 * Using JRebel to HotSwap new Static String fields in an Eclipse Plugin (without Eclipse restart)
