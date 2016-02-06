@@ -12,7 +12,7 @@ You should just be able to say: **_eclipseUI.new_View("{view title}");_**
 
 Which is one of the APIs that I've added to the [eclipseUI.java](https://github.com/TeamMentor/TeamMentor_Eclipse_Plugin/blob/develop/TeamMentor.Eclipse.PlugIn.Fortify/src/tm/eclipse/helpers/eclipseUI.java#L89) file ([exposed to the Groovy execution environment](https://github.com/TeamMentor/TeamMentor_Eclipse_Plugin/blob/develop/TeamMentor.Eclipse.PlugIn.Fortify/src/tm/eclipse/groovy/plugins/GroovyExecution.java#L58)) and can be used like this:
 
-[![](images/Screen_Shot_2013-12-16_at_21_15_03.png)
+![](images/Screen_Shot_2013-12-16_at_21_15_03.png)
 
 What you see above is the Groovy environment described on [Programming Eclipse in Real-Time (using an 'Groovy based' Eclipse Plug-in)](http://blog.diniscruz.com/2013/08/programming-eclipse-in-real-time-using.html) executing the **eclipseUI.new_View("This is the title of a new view");** script, which will create a new view (shown in the bottom panel).
 
@@ -43,21 +43,21 @@ And that is what I have now :)
 
 Here is an attempt of using the **_add_View_** method, which currently doesn't exist in the **_eclipseUI_** class.
 
-[![](images/Screen_Shot_2013-12-16_at_21_15_46.png)](http://1.bp.blogspot.com/-RGRLAgYUorI/Uq9vGnTxcEI/AAAAAAAAFK0/Zr8AzlO-W6k/s1600/Screen+Shot+2013-12-16+at+21.15.46.png)
+![](images/Screen_Shot_2013-12-16_at_21_15_46.png)
 
 Now, what is really cool, is that I'm going to open the actual [TeamMentor.Eclipse.PlugIn.Fortify](http://teammentor.eclipse.plugin.fortify/) project inside the Eclipse instance current running that Eclipse plugin. Think of this like **_being_** **_inside the Matrix, opening up the code to the Matrix, changing it and executing it :)_**
 
-[![](images/Screen_Shot_2013-12-16_at_21_16_17.png)](http://2.bp.blogspot.com/-at4g7RByJ3I/Uq9vGlVvGhI/AAAAAAAAFK4/eHF3vEM3ToE/s1600/Screen+Shot+2013-12-16+at+21.16.17.png)
+![](images/Screen_Shot_2013-12-16_at_21_16_17.png)
 
-Once I have that project openned (note how there are no compilation errors), I can open the **_tm.eclipse.helpers.eclipseUI.java_** file (screenshot above) and add the new **_add_View(String viewId) _**static method (screenshot below)  
+Once I have that project openned (note how there are no compilation errors), I can open the **_tm.eclipse.helpers.eclipseUI.java_** file (screenshot above) and add the new **_add_View(String viewId)_** static method (screenshot below)  
 
-[![](images/Screen_Shot_2013-12-16_at_21_17_56.png)](http://1.bp.blogspot.com/-lcM-ZYpIUGc/Uq9vHihvm6I/AAAAAAAAFLY/ul4bCpBiHBo/s1600/Screen+Shot+2013-12-16+at+21.17.56.png)
+![](images/Screen_Shot_2013-12-16_at_21_17_56.png)
 
 And in the time that it took me to save and switch tabs, the new class was compiled and JRebel did the hotswap :)
 
 Which means that I can now use it in my script:
 
-[![](images/Screen_Shot_2013-12-16_at_21_18_38.png)](http://1.bp.blogspot.com/-4haR0_D_HGk/Uq9vH597NVI/AAAAAAAAFLQ/I4s4oqDlxik/s1600/Screen+Shot+2013-12-16+at+21.18.38.png)
+![](images/Screen_Shot_2013-12-16_at_21_18_38.png)
 
 Which was done:
 
@@ -66,13 +66,13 @@ Which was done:
 
 Basically, meaning that I now have the speed of compilation+activation that I need (less than 1 sec), so that I can **_program at speed of type_** and without losing any mojo (i.e. I'm very productive)
 
-Here is a final example where I use the new _add_View _method in conjunction with other methods I had added before to:
+Here is a final example where I use the new _add_View_ method in conjunction with other methods I had added before to:
 
 1) create a new View  
 2) add a browser to it  
 3) open the http://news.bbc.co.uk page
 
-[![](images/Screen_Shot_2013-12-16_at_21_21_58.png)](http://2.bp.blogspot.com/-PQ4yW7bNnz8/Uq9vIguX7SI/AAAAAAAAFLg/hbLaRNa7zwU/s1600/Screen+Shot+2013-12-16+at+21.21.58.png)
+![](images/Screen_Shot_2013-12-16_at_21_21_58.png)
 
 
 I really like the script shown above, because it is easier to read (today and in 6 months time), and it moves all the Eclipse API complexity to behind the scenes.
