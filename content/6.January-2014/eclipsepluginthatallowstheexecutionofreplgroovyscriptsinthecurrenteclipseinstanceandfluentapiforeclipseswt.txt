@@ -1,4 +1,4 @@
-##  Eclipse Plugin that allows the execution of REPL Groovy Scripts (in the current Eclipse Instance) and Fluent API for Eclipse+SWT 
+## Eclipse Plugin that allows the execution of REPL Groovy Scripts (in the current Eclipse Instance) and Fluent API for Eclipse+SWT 
 
 For the past 6 months I have been working on an Eclipse plugin that implements a Groovy REPL that makes it very easy to learn Eclipse and SWT.  
 
