@@ -30,24 +30,22 @@
 #XStream-Remote-Code-Execution-exploit-on-code-from-Standard-way-to-serialize-and-deserialize-Objects-with-XStream-article.md
 #How-to-create-(using-Eclipse)-JavaDocs-that-looks-good-(My-current-approach-is-not-working).md
 
-january2014.md
+#january2014.md
 
-Updating-the-GitHub-repos-for-the-1.6.0-release-of-the-Eclipse-Fortify-Plugin.md
-Saga-to-sign-an-eclipse-plugin-with-a-code-cert.md
-Fixing-Coding-Signing-issue-where-Eclipse-Plugin-didn't-install-in-Indigo.md
-Eclipse-Groovy-script-to-remove-the-'busy'-image-from-the-WebBrowser-Editor.md
-Viewing-Eclipse-and-SWT-objects-(Workbench,-Display-and-Shell)-using-Groovy's-ObjectBrowser-and-using-TeamMentor's-Plugin-ObjectBrowser.md
+#Updating-the-GitHub-repos-for-the-1.6.0-release-of-the-Eclipse-Fortify-Plugin.md
+#Saga-to-sign-an-eclipse-plugin-with-a-code-cert.md
+#Fixing-Coding-Signing-issue-where-Eclipse-Plugin-didn't-install-in-Indigo.md
+#Eclipse-Groovy-script-to-remove-the-'busy'-image-from-the-WebBrowser-Editor.md
+#Viewing-Eclipse-and-SWT-objects-(Workbench,-Display-and-Shell)-using-Groovy's-ObjectBrowser-and-using-TeamMentor's-Plugin-ObjectBrowser.md
 
-#february2014.txt
-#creatinganeclipseuitorunangularjse2etestsusingkarma.txt
-#usingfirebasetosyncdatawithawebpageviajavascriptrestandfirebaseadminpanel.txt
-#xssconsiderationswhendevelopingwithfirebase.txt
-#eclipsegroovyreplscripttosyncabrowserwithfilechangeswithrecursivefoldersearchviajavaswatchservice.txt
-#areallysimpleandcleanangularjsfirebaseexample.txt
-#usingangularjsineclipsepart1thebasics.txt
-#usingangularjsineclipsepart2addsomecontrol.txt
-#usingangularjsineclipsepart3wireupabackend.txt
-#usingangularjsineclipsepart4createcomponents.txt
+february2014.md
+
+Creating-an-Eclipse-UI-to-run-AngularJS-e2e-tests-using-Karma.md
+Using-Firebase-to-sync-data-with-a-webpage-(via-Javascript,-REST-and-Firebase-Admin-panel).md
+XSS-considerations-when-developing-with-Firebase.md
+Eclipse-Groovy-REPL-script-to-sync-a-Browser-with-file-changes-(with-recursive-folder-search-via-Java's-WatchService).md
+Really_Simple_and_Clean_angularJS_Firebase_Example
+Using-AngularJS-in-Eclipse,-Part-1)-The-Basics.md
 
 #march2014.txt
 #eclipsegroovyscripttoremovethebusyimagefromthewebbrowsereditor.txt
