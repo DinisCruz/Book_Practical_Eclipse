@@ -44,7 +44,7 @@ Creating-an-Eclipse-UI-to-run-AngularJS-e2e-tests-using-Karma.md
 Using-Firebase-to-sync-data-with-a-webpage-(via-Javascript,-REST-and-Firebase-Admin-panel).md
 XSS-considerations-when-developing-with-Firebase.md
 Eclipse-Groovy-REPL-script-to-sync-a-Browser-with-file-changes-(with-recursive-folder-search-via-Java's-WatchService).md
-Really_Simple_and_Clean_angularJS_Firebase_Example
+Really_Simple_and_Clean_angularJS_Firebase_Example.md
 Using-AngularJS-in-Eclipse,-Part-1)-The-Basics.md
 
 #march2014.txt

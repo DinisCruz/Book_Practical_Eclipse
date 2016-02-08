@@ -1,4 +1,4 @@
-##  Using AngularJS in Eclipse, Part 1) The Basics
+## Using AngularJS in Eclipse, Part 1) The Basics
 
 This  covers the _**The Basics**_ example from [AngularJS](http://angularjs.org/http://angularjs.org/)'s home page:  
 
