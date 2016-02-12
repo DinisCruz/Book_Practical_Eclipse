@@ -48,5 +48,5 @@ Really_Simple_and_Clean_angularJS_Firebase_Example.md
 Using-AngularJS-in-Eclipse,-Part-1)-The-Basics.md
 
 march2014.md
-1-Programmatically-changing-an-AngularJS-scope-variable-and-adding-Firebug-Lite-to-an-AngularJs-app.md
-2.Why-doesn't-Eclipse-community-stand-up-more-to-IntelliJ.md
+Programmatically-changing-an-AngularJS-scope-variable-and-adding-Firebug-Lite-to-an-AngularJs-app.md
+Why-doesn't-Eclipse-community-stand-up-more-to-IntelliJ.md
