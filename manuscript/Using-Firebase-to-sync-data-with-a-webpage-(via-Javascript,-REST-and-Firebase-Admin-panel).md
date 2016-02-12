@@ -176,8 +176,7 @@ By default the data received from the server has no formatting:
 
 But since we are inside the Eclipse  **_JavaScript Editor_**  if we assign it to a variable, we can easily format it:
 
-![](images/Screen_Shot_2014-02-24_at_16_29_32.png)](http://4.bp.blogspot.com/-zmZwwRmTtx0/UwuKrkN2aZI/AAAAAAAAHgY/oUFf7e-ksS4/s1600/Screen+Shot+2014-02-24+at+16.29.32.png)
-
+![](images/Screen_Shot_2014-02-24_at_16_29_32.png)
 
 After doing this, I discovered that if we pass a _?print=pretty_ to the Firebase url:
 
